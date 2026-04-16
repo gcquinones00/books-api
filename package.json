@@ -1,0 +1,20 @@
+{
+  "name": "books-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @google-cloud/functions-framework --target=booksApi",
+    "dev": "npx @google-cloud/functions-framework --target=booksApi --port=8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^5.0.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
