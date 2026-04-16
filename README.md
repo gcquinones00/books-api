@@ -1,4 +1,4 @@
-📚 Books REST API
+📚 Assignment 1: Books REST API
 
 This project is a simple REST API built to manage a collection of books. It is deployed using Google Cloud Functions and allows users to perform basic CRUD operations through HTTP requests.
 
